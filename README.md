@@ -21,8 +21,8 @@ This project examines mortality data from two clinics at Vienna General Hospital
 - **Environment**: Jupyter Notebook or Google Colab — install dependencies with:
   ```bash
   pip install pandas matplotlib seaborn
-
-Analytical Steps
+---
+## Analytical Steps
 Load & review annual data from both clinics
 
 Calculate death proportions and plot differences
@@ -35,7 +35,9 @@ Plot time-series of mortality rates, marking the intervention
 
 Bootstrap analysis to generate a confidence interval on mortality reduction — more robust than simple difference-in-means
 
-Key Findings
+---
+
+## Key Findings
 Clinic disparity: Clinic 1 consistently had higher mortality rates than Clinic 2
 
 Handwashing effect: Death rates dropped from ~10 % to ~2 % after June 1847
@@ -43,27 +45,28 @@ Handwashing effect: Death rates dropped from ~10 % to ~2 % after June 1847
 Bootstrap CI: Mortality proportion decreased by approximately 6–10 percentage points with high confidence
 
 This aligns with historical findings: Semmelweis’s chlorinated lime handwashing dropped maternal deaths by ~90 % 
-
-Conclusions & Insights:
+---
+## Conclusions & Insights:
 Drastic improvement: Introduction of handwashing led to a ~8 pp drop in maternal deaths
 
 Statistical backing: Bootstrap analysis provides uncertainty intervals, reinforcing robustness
 
 Historical context: Supports Semmelweis’s empirical discovery that hand hygiene saves lives 
-
-Extensions & Next Steps:
+---
+## Extensions & Next Steps:
 Expand time coverage to include data beyond 1847
 
 Dive deeper into statistical methods (e.g., Bayesian inference, time-series modeling)
 
 Compare to modern infection-control interventions, especially relevant amid COVID-19 hygiene practices
+---
 
-Acknowledgements:
+## Acknowledgements:
 Historical dataset derived from original records studied by Semmelweis in 1847
 
 Analysis created as part of the “100 Days of Python” Udemy course
-
-About the Author:
+---
+## About the Author:
 Author: sj‑18‑sys
 
 Date: July 2025
