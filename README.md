@@ -45,6 +45,7 @@ Handwashing effect: Death rates dropped from ~10 % to ~2 % after June 1847
 Bootstrap CI: Mortality proportion decreased by approximately 6–10 percentage points with high confidence
 
 This aligns with historical findings: Semmelweis’s chlorinated lime handwashing dropped maternal deaths by ~90 % 
+
 ---
 ## Conclusions & Insights:
 Drastic improvement: Introduction of handwashing led to a ~8 pp drop in maternal deaths
@@ -52,6 +53,7 @@ Drastic improvement: Introduction of handwashing led to a ~8 pp drop in matern
 Statistical backing: Bootstrap analysis provides uncertainty intervals, reinforcing robustness
 
 Historical context: Supports Semmelweis’s empirical discovery that hand hygiene saves lives 
+
 ---
 ## Extensions & Next Steps:
 Expand time coverage to include data beyond 1847
@@ -59,15 +61,19 @@ Expand time coverage to include data beyond 1847
 Dive deeper into statistical methods (e.g., Bayesian inference, time-series modeling)
 
 Compare to modern infection-control interventions, especially relevant amid COVID-19 hygiene practices
+
 ---
 
 ## Acknowledgements:
 Historical dataset derived from original records studied by Semmelweis in 1847
 
 Analysis created as part of the “100 Days of Python” Udemy course
+
+
 ---
 ## About the Author:
 Author: sj‑18‑sys
 
 Date: July 2025
+
 
